@@ -1,0 +1,4 @@
+version: '3'
+services:
+  nextcloud:
+    image: nextcloud:23.0.9
