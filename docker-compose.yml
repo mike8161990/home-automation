@@ -1,4 +1,6 @@
-version: '3'
+version: "3"
 services:
   nextcloud:
     image: nextcloud:23.0.9
+    ports:
+      - "8080:80"
